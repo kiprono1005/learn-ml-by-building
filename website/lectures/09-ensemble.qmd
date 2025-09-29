@@ -1,0 +1,42 @@
+---
+title: "Lecture 9: Ensemble Methods"
+subtitle: "From Bagging and Boosting to Deep Ensembles"
+---
+
+## Overview
+
+In this lecture, we study why and how multiple weak/strong learners can be combined to outperform single models:
+
+- Bagging and Random Forests: bootstrap sampling, feature subspaces, OOB estimation, and variance reduction
+- Boosting (AdaBoost/Gradient Boosting): sequentially reducing bias
+- Diversity and agreement: why uncorrelated errors matter; majority vs soft voting
+- Deep ensembles: probability averaging, uncertainty decomposition (epistemic vs aleatoric), and OOD detection
+- Practical feature choices (HOG vs ResNet embeddings) and trade-offs in speed vs accuracy
+
+## Learning Objectives
+
+By the end of this lecture, you will:
+
+- Explain bootstrap sampling, out-of-bag (OOB) evaluation, and feature randomness in Random Forests
+- Build and compare bagged trees/Extra Trees vs boosting, and interpret bias–variance effects
+- Quantify diversity using pairwise agreement and visualize error distributions across models
+- Form ensemble predictions via hard (majority) and soft (probability) voting and compare outcomes
+- Decompose predictive uncertainty into epistemic and aleatoric components and use them for OOD detection
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[Ensemble Methods Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%209%20Ensemble%20Methods/09-Ensemble-Methods.ipynb)**
+:::
+
+## Datasets & Acknowledgments
+
+- CIFAR-10 (Krizhevsky et al.): small natural images used to illustrate ensembles with classical features and with pretrained embeddings
+  - Source: https://www.cs.toronto.edu/~kriz/cifar.html
+  - Please review dataset license/terms of use before redistribution
+- Libraries: scikit-learn (trees/metrics/visualization), PyTorch/torchvision (deep models, ResNet features), scikit-image (HOG)
+
+---
+
+**Previous**: [← Lecture 8: Modern Decision Trees](08-decision-trees.qmd) | **Next**: TBD

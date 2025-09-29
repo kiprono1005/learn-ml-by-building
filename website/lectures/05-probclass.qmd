@@ -1,0 +1,52 @@
+---
+title: "Lecture 5: Probabilistic Classification"
+subtitle: "Logistic Regression & Naive Bayes - When Predictions Can Save Lives"
+---
+
+## Overview
+
+In this critical lecture, we tackle a life-or-death classification problem: identifying poisonous mushrooms. Through this compelling case study, you'll discover why probabilistic outputs are essential for risk-aware decisions, moving beyond simple yes/no predictions. We'll build two fundamental probabilistic classifiers—Logistic Regression and Naive Bayes—and learn how to calibrate them for safety-critical applications where the cost of false negatives can be fatal.
+
+## Learning Objectives
+
+By the end of this lecture, you will:
+
+- Understand why probabilistic outputs are essential for risk-aware decisions
+- Implement logistic regression as a "soft" decision maker that expresses confidence
+- Master Naive Bayes as a probabilistic detective gathering and combining evidence
+- Calibrate models and tune decision thresholds for safety-critical applications
+- Diagnose model disagreements and understand edge cases
+- Build production-ready classifiers that prioritize safety over accuracy
+
+## Materials
+
+:::{.callout-tip}
+## Quick Access
+**[Probabilistic Classification Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%205%20Probabilistic%20Classification/05-ProbClass.ipynb)**
+:::
+
+:::{.callout-important collapse=false}
+## Pre-Class Requirements
+- Python environment with scikit-learn, pandas, matplotlib, and seaborn
+- Understanding of linear regression from Lecture 3
+- Basic probability theory (Bayes' theorem helpful but not required)
+- Completed Lecture 4 on optimization
+:::
+
+## Datasets & Acknowledgments
+
+### UCI Mushroom Dataset
+- Source: **[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/73/mushroom)**
+- Size: 8,124 mushrooms with 22 categorical features
+- Why This Dataset: Perfect 52/48 class balance, real mushroom characteristics from field guides, and life-or-death stakes make it ideal for teaching safety-critical classification
+
+## Key Takeaways
+
+:::{.callout-warning}
+## Critical Safety Principle
+In mushroom classification, it's better to skip a meal than risk your life! This principle extends to all safety-critical applications where false negatives have catastrophic consequences.
+:::
+
+---
+
+**Previous**: [← Lecture 4: Gradient Descent and Optimization](04-optimization.qmd) | **Next**: Lecture 6: Decision Trees (Coming Soon)

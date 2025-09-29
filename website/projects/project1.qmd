@@ -25,7 +25,7 @@ By completing this project, you will:
 ## Quick Access
 **[Project Notebook (GitHub)](https://github.com/jinming99/learn-ml-by-building/blob/main/Project%201%20KNN%20Music%20Recommender/music_recommender.ipynb)** — Complete implementation guide and assignment  
 **[Repository](https://github.com/jinming99/learn-ml-by-building)** — Full codebase with web application  
-**[Live Demo](http://localhost:5002)** — after running `python app.py`
+**[Live Demo (Static UI)](https://jinming99.github.io/learn-ml-by-building/demos/p1-music/)** — UI preview only (no backend)  
 :::
 
 :::{.callout-important collapse=false}
@@ -58,71 +58,6 @@ Working with real Spotify data, you'll explore:
 - Feature distributions, correlations, and outliers
 - The impact of scaling on distance-based algorithms
 - Trade-offs between different similarity measures
-
-## Key Technologies
-
-- **Backend**: Flask, NumPy, Pandas, Scikit-learn
-- **Frontend**: Vanilla JavaScript, HTML5, CSS3
-- **APIs**: YouTube Data API for music previews
-- **Data**: 600k+ tracks with Spotify audio analysis
-
-## Interactive Features
-
-:::{.callout-note}
-## 🎵 Try It Yourself
-Once deployed, your system will let users:
-
-- Search and discover music from over half a million tracks
-- Get personalized recommendations based on any song
-- Adjust algorithm parameters (k, distance metrics) in real-time
-- Listen to preview clips before adding to playlists
-- Understand why songs were recommended through feature visualization
-:::
-
-## Setup Guide
-
-```bash
-# Quick setup
-python3.11 -m venv .venv-music
-source .venv-music/bin/activate
-pip install -r requirements.txt
-
-# Configure YouTube API (see notebook for detailed instructions)
-echo "YOUTUBE_API_KEY=your_key_here" > .env
-
-# Run the application
-python app.py
-# Navigate to http://localhost:5002
-```
-
-## Data Setup
-
-Place the dataset CSV(s) in the project’s `data/` folder:
-
-- Required: `data/mergedFile.csv` — main catalog with track metadata and audio features
-- Optional: `data/item_profile.csv` — alternative profile file if you choose to separate it
-
-Notes:
-
-- Column expectations include song/artist identifiers and audio features (e.g., energy, danceability, etc.).
-- The application won’t function without `mergedFile.csv`. See repository README for more details and dataset link.
-
-## Real-World Challenges You'll Tackle
-
-1. **The Curse of Dimensionality**: Understand why distance metrics behave unexpectedly in high dimensions
-2. **Feature Scale Bias**: See how tempo (0-200 BPM) can dominate valence (0-1) without proper scaling
-3. **Computational Complexity**: Analyze why brute-force k-NN doesn't scale to millions of songs
-4. **Production Engineering**: Implement caching and API design for responsive user experience
-5. **Hybrid Metrics**: Balance audio similarity with artist diversity for better recommendations
-
-## Project Insights
-
-This project demonstrates several key ML concepts:
-
-- **Instance-based learning** requires no training phase but trades computation at query time
-- **Feature engineering** can be more important than algorithm choice
-- **Distance metrics** encode our notion of similarity - choosing the right one is crucial
-- **Production ML** involves much more than just the algorithm - APIs, caching, and UX matter
 
 ## Additional Resources
 

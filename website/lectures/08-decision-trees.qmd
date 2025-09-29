@@ -1,0 +1,44 @@
+---
+title: "Lecture 8: Modern Decision Trees"
+subtitle: "From Hard Splits to Differentiable Soft Trees"
+---
+
+## Overview
+
+In this lecture, we move from classical decision trees to modern perspectives:
+
+- Why axis-aligned splits can be limiting, and how depth affects overfitting
+- Practical strategies for class imbalance (resampling vs class-weighting)
+- Differentiable (soft) decision trees that enable gradient-based learning
+- How to evaluate beyond accuracy with AUC/PR-AUC, calibration, and confusion matrices
+
+## Learning Objectives
+
+By the end of this lecture, you will:
+
+- Understand tree impurity criteria and how splits are chosen
+- Diagnose overfitting and complexity growth as depth increases
+- Address class imbalance with data rebalancing and class weighting (and know the math behind it)
+- Build intuition for soft trees and temperature-controlled routing
+- Compare hard vs soft boundaries and assess probability calibration
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[Modern Decision Trees Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%208%20Modern%20Decision%20Trees/08-DecisionTrees-ModernView.ipynb)**
+:::
+
+## Datasets & Acknowledgments
+
+- Home Credit Default Risk (Kaggle): real-world credit risk dataset used throughout the lecture.
+  - Source: https://www.kaggle.com/competitions/home-credit-default-risk
+  - Please review the dataset license and Kaggle terms of use before redistribution
+- Libraries: scikit-learn (trees/metrics/visualization), PyTorch (soft trees)
+- Soft Decision Trees (prior work):
+  - Frosst, N., & Hinton, G. (2017). Distilling a Neural Network Into a Soft Decision Tree
+  - Kontschieder, P., Fiterau, M., Criminisi, A., & Bulo, S. R. (2015). Deep Neural Decision Forests (ICCV)
+
+---
+
+**Previous**: [← Lecture 7: Overfitting and Regularization](07-regularization.qmd) | **Next**: [Lecture 9: Ensemble Methods →](09-ensemble.qmd)

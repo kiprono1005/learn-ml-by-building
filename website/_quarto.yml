@@ -4,6 +4,7 @@ project:
     - project-matchmaker/**
     - project-matchmaker/*
     - project-matchmaker/student_data.json
+    - demos/p1-music/**
 
 website:
   title: "ECE4424/CS4824: Machine Learning"
@@ -57,14 +58,22 @@ website:
             href: lectures/03-linear.qmd
           - text: "L4: Gradient Descent and Optimization"
             href: lectures/04-optimization.qmd
-          - text: "L5-6: Coming Soon"
-            href: "#"
+          - text: "L5: Probabilistic Classification"
+            href: lectures/05-probclass.qmd
       
       - section: "Module 2: Let's Understand"
         contents:
-          - text: "L7-11: Coming Soon"
+          - text: "L6: Model Evaluation and Data Deception"
+            href: lectures/06-model-eval.qmd
+          - text: "L7: Overfitting and Regularization"
+            href: lectures/07-regularization.qmd
+          - text: "L8: Modern Decision Trees"
+            href: lectures/08-decision-trees.qmd
+          - text: "L9: Ensemble Methods"
+            href: lectures/09-ensemble.qmd
+          - text: "L10-11: Coming Soon"
             href: "#"
-      
+            
       - section: "Module 3: Let's Discover"
         contents:
           - text: "L12-13: Coming Soon"

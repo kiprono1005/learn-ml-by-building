@@ -31,6 +31,9 @@ venv_office_p02/
 Lecture 3 Linear Regression/linear_regression_env/
 Lecture 3 Linear Regression/lecture3_macbook_venv/
 
+# Lecture 7 Regularization and Generalization specific venv
+Lecture 7 Regularization and Generalization/regularization_env/
+
 # ===== OS-generated files (macOS) =====
 .DS_Store
 **/.DS_Store

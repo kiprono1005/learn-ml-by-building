@@ -24,6 +24,7 @@ torchvision==0.17.2
 jupyter>=1.0.0
 ipykernel>=6.0.0
 ipython>=7.0.0
+jupytext>=1.17.3
 
 # Additional Visualization
 plotly>=5.0.0
@@ -36,5 +37,8 @@ nbconvert>=6.0.0
 
 # For better progress bars
 tqdm>=4.62.0
+
+# Image processing (for HOG features)
+scikit-image>=0.20.0
 
 

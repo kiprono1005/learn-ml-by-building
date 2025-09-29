@@ -53,4 +53,4 @@ By the end of this lecture, you will:
 
 ---
 
-**Previous**: [← Lecture 3: Linear Regression](03-linear.qmd) | **Next**: Lecture 5: Regularization (Coming Soon)
+**Previous**: [← Lecture 3: Linear Regression](03-linear.qmd) | **Next**: [Lecture 5: Probabilistic Classification](05-probclass.qmd)

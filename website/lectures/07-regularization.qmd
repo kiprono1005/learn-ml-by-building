@@ -1,0 +1,44 @@
+---
+title: "Lecture 7: Overfitting and Regularization"
+subtitle: "From Memorization to Generalization"
+---
+
+## Overview
+
+This lecture examines overfitting and generalization using Fashion-MNIST. We will diagnose overfitting by comparing training and validation performance, and then study both model-centric (regularization) and data-centric (quantity/diversity) interventions to improve generalization. The emphasis is on principled evaluation and reproducible procedures.
+
+## Learning Objectives
+
+By the end of this lecture, you will:
+
+- Detect overfitting early using validation sets and learning curves
+- Master classical regularization techniques (L1/L2, early stopping)
+- Apply modern approaches (label smoothing, mixup augmentation)
+- Explore data-centric solutions through quantity and diversity experiments
+
+## Materials
+
+::: {.callout-tip}
+### Quick Access
+
+- [Overfitting & Regularization Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%207%20Regularization%20and%20Generalization/07-Overfitting-Regularization.ipynb)
+:::
+
+::: {.callout-note}
+### Three Fundamental Curves You'll Generate
+
+- Model Complexity Curve: The classic U-shaped validation error showing underfitting → optimal → overfitting zones
+- Data Quantity Curve: Diminishing returns as training samples increase
+- Data Diversity Effect: Diverse samples can outperform larger homogeneous sets for out-of-distribution generalization
+:::
+
+## Datasets & Acknowledgments
+
+- [Fashion-MNIST Dataset (Kaggle)](https://www.kaggle.com/datasets/zalando-research/fashionmnist)  
+  Source: Zalando Research  
+  Size: 70,000 grayscale images (28×28) of 10 clothing categories  
+  Why This Dataset: Complex enough to demonstrate overfitting, simple enough to train quickly, real-world relevance
+
+---
+
+**Previous**: [← Lecture 6: Model Evaluation and Data Deception](06-model-eval.qmd) | **Next**: TBD
