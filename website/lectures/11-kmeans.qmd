@@ -1,0 +1,37 @@
+---
+title: "Lecture 11: K-Means Clustering"
+subtitle: "Finding Groups in Unsupervised Learning"
+---
+
+## Overview
+
+In this lecture, we explore K-Means clustering - one of the most fundamental unsupervised learning algorithms for discovering hidden patterns and structures in unlabeled data. Unlike supervised learning where labels guide us, clustering reveals natural groupings purely from data patterns. We'll build K-Means from scratch to understand its inner workings, apply it to real-world text data, learn how to evaluate and optimize clustering results, and understand when K-Means excels and when alternative methods are needed.
+
+## Learning Objectives
+
+By the end of this lecture, you will:
+
+- Understand the fundamental concepts of clustering and unsupervised learning
+- Master the K-Means algorithm, including its objective function (WCSS) and iterative optimization
+- Implement K-Means from scratch to understand the assignment and update steps
+- Apply K-Means to text data using TF-IDF transformation
+- Evaluate clustering quality using silhouette score, Davies-Bouldin index, and Calinski-Harabasz score
+- Choose optimal K using the elbow method and silhouette analysis
+- Use K-Means variants (MiniBatch K-Means, K-Means++) for improved performance
+- Recognize K-Means limitations (spherical clusters, fixed K) and when to use alternative methods
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[K-Means Clustering Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2011%20K-Means/11-KMeans.ipynb)**
+:::
+
+## Datasets & Acknowledgments
+
+- **20 Newsgroups** (Ken Lang): Text documents from 20 different newsgroups used to demonstrate document clustering
+- **Libraries**: scikit-learn (K-Means implementation, metrics), NumPy (numerical operations), Matplotlib/Seaborn (visualization)
+
+---
+
+**Previous**: [← Lecture 10: Kernel Methods & Gaussian Processes](10-kernel-gp.qmd) | **Next**: [Lecture 12: PCA and Dimensionality Reduction →](12-pca.qmd)

@@ -69,4 +69,4 @@ Working with real Spotify data, you'll explore:
 
 ---
 
-**Previous**: [← Previous Assignment] | **Next**: [Next Assignment →]
+**Next**: [Project 2: Neural Archaeology →](project2.qmd)
