@@ -22,7 +22,11 @@ website:
       - text: "Schedule"
         href: schedule.qmd
       - text: "Projects"
-        href: projects/project1.qmd
+        menu:
+          - text: "Project 1: KNN Music Recommender"
+            href: projects/project1.qmd
+          - text: "Project 2: Neural Archaeology"
+            href: projects/project2.qmd
       - text: "Resources"
         href: resources.qmd
       - text: "Project Matchmaker"
@@ -71,13 +75,17 @@ website:
             href: lectures/08-decision-trees.qmd
           - text: "L9: Ensemble Methods"
             href: lectures/09-ensemble.qmd
-          - text: "L10-11: Coming Soon"
-            href: "#"
+          - text: "L10: Kernel Methods & Gaussian Processes"
+            href: lectures/10-kernel-gp.qmd
             
       - section: "Module 3: Let's Discover"
         contents:
-          - text: "L12-13: Coming Soon"
-            href: "#"
+          - text: "L11: K-Means Clustering"
+            href: lectures/11-kmeans.qmd
+          - text: "L12: PCA and Dimensionality Reduction"
+            href: lectures/12-pca.qmd
+          - text: "L13: Neural Network Architecture"
+            href: lectures/13-nn-architecture.qmd
       
       - section: "Module 4: Let's See & Chat"
         contents:
@@ -98,7 +106,9 @@ website:
         contents:
           - text: "Project 1: KNN Music Recommender"
             href: projects/project1.qmd
-          - text: "Project 2-3: Coming Soon"
+          - text: "Project 2: Neural Archaeology"
+            href: projects/project2.qmd
+          - text: "Project 3: Coming Soon"
             href: "#"
 
 format:

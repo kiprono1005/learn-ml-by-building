@@ -1,0 +1,89 @@
+---
+title: "Project 2: Neural Archaeology"
+subtitle: "Decoding and Rewiring the Hidden Mind of Language Models"
+---
+
+## Overview
+
+Peer into the **"black box"** of language models by implementing interpretability techniques from cutting-edge research. This project takes you on a journey of neural archaeology—excavating the hidden layers of transformer models to understand how they encode concepts like safety, emotion, and truthfulness. You'll build practical tools to detect harmful content, visualize emotional representations, and understand how information flows through neural networks.
+
+## Learning Objectives
+
+By completing this project, you will:
+
+- **Implement** PCA from scratch to understand unsupervised dimensionality reduction
+- **Apply** K-means clustering to discover natural groupings in neural representations
+- **Compare** supervised vs unsupervised learning for representation discovery
+- **Analyze** layer-wise information processing in Transformer architectures
+- **Build** safety detection systems using neural representations
+- **Understand** data efficiency and learning curves for safety systems
+- **Visualize** high-dimensional neural activations in 2D/3D space
+- **Think critically** about AI safety and ethics through hands-on experimentation
+
+## Materials
+
+:::{.callout-tip}
+## Quick Access
+**[Project Notebook (GitHub)](https://github.com/jinming99/learn-ml-by-building/blob/main/Project%202%20Neural%20Archaeology%20(instructor)/Neural_Archaeology_Student.ipynb)** — Complete implementation guide and assignment  
+**[Setup Guide](https://github.com/jinming99/learn-ml-by-building/blob/main/Project%202%20Neural%20Archaeology%20(instructor)/README.md)** — Colab and local setup instructions
+:::
+
+:::{.callout-important collapse=false}
+## Submission Requirements
+1. Completed Jupyter notebook exported as **PDF** with all outputs visible
+2. All code implementations (`# YOUR CODE HERE` sections) completed
+3. All analysis sections answered (marked as "Required Analysis")
+4. All visualizations displayed in the PDF
+:::
+
+## What You'll Build
+
+### Core Algorithms
+You'll implement fundamental ML techniques from scratch:
+- **PCA (Principal Component Analysis)** for dimensionality reduction
+- **K-Means clustering** for unsupervised pattern discovery
+- **Logistic regression** for safety classification
+- **Hidden state extraction** from transformer models
+
+### Neural Interpretability Tools
+Your implementations will power analysis of language models:
+- Extract and visualize internal "thoughts" at each layer
+- Map the geometric structure of emotions in neural space
+- Build classifiers to detect unsafe content
+
+### Research Insights
+Working with real language models (SmolLM-1.7B), you'll discover:
+- How safety information emerges in later layers
+- Whether emotions cluster naturally in activation space
+- Which pooling strategies best capture semantic meaning
+- How layer depth affects representation quality
+
+## Technical Stack
+
+- **Models**: SmolLM-1.7B-Instruct (HuggingFace Transformers)
+- **Datasets**: Circuit Breaker safety data, emotion scenarios
+- **Libraries**: PyTorch, NumPy, scikit-learn, Matplotlib
+- **Compute**: Google Colab (free GPU) or local GPU (recommended)
+
+
+## Research Context
+
+This project synthesizes techniques from cutting-edge AI safety research:
+
+- **Representation Engineering** ([Zou et al., 2023](https://arxiv.org/abs/2310.01405)) — Reading and controlling model representations
+- **Circuit Breakers** ([Zou et al., 2024](https://www.circuit-breaker.ai/)) — Training models to refuse harmful requests
+- **Refusal Mechanisms** ([Zhang et al., 2024](https://arxiv.org/abs/2409.14586), [Sel et al., 2025](https://arxiv.org/abs/2503.08919)) — Understanding how models say "no"
+
+You'll gain hands-on experience with methods used by AI safety researchers at leading labs.
+
+## Additional Resources
+
+- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) — Visual guide to transformer architecture
+- [OpenAI Tokenizer Tool](https://platform.openai.com/tokenizer) — Understand how text becomes tokens
+- [Anthropic's Interpretability Research](https://www.anthropic.com/research) — State-of-the-art in neural interpretability
+- [PCA Explained Visually](https://setosa.io/ev/principal-component-analysis/) — Interactive PCA tutorial
+
+
+---
+
+**Previous**: [← Project 1: Music Recommender](project1.qmd) | **Next**: [Capstone Project →](capstone.qmd)

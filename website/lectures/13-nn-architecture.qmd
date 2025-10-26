@@ -1,0 +1,37 @@
+---
+title: "Lecture 13: Fully Connected Neural Networks — Architectures & Learning"
+subtitle: "From perceptron to MLPs, activations, forward/backprop, and CIFAR-10"
+---
+
+## Overview
+
+Linear models struggle with non-linear patterns, as seen in classic datasets like two moons. This lecture introduces fully connected neural networks (multi-layer perceptrons) and the crucial role of non-linear activation functions in enabling complex decision boundaries. We build MLPs in PyTorch, trace forward propagation step-by-step, discuss backpropagation intuition and gradient checking, visualize capacity vs. complexity through decision boundaries, and finish by training on the CIFAR-10 dataset.
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+
+- Understand why non-linear activation functions are essential for neural networks
+- Build multi-layer perceptrons (MLPs) from scratch using PyTorch
+- Trace forward propagation through a network step-by-step
+- Explain backpropagation intuitively and implement gradient checking
+- Train neural networks on real-world datasets (CIFAR-10)
+- Apply modern practices like proper initialization and optimization
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[Neural Network Architecture Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2013%20NN%20Architecture/13-FCNeuralNet.ipynb)**
+:::
+
+## Datasets & Acknowledgments
+
+- **CIFAR-10** (Krizhevsky et al.): 60k 32×32 color images across 10 classes, accessed via `torchvision.datasets.CIFAR10`
+- **Synthetic datasets**: Two moons, circles for illustrating non-linear decision boundaries (`sklearn.datasets.make_moons`, `make_circles`)
+- **Libraries**: PyTorch/torchvision, scikit-learn, matplotlib, seaborn, ipywidgets
+- **Figures/visualizations**: Decision boundaries, activation functions, and architecture diagrams generated programmatically in the notebook
+
+---
+
+**Previous**: [← Lecture 12: PCA and Dimensionality Reduction](12-pca.qmd) | **Next**: [Coming Soon →](#)
