@@ -86,10 +86,14 @@ website:
             href: lectures/12-pca.qmd
           - text: "L13: Neural Network Architecture"
             href: lectures/13-nn-architecture.qmd
+          - text: "L14: Understanding Transformers"
+            href: lectures/14-transformers.qmd
       
       - section: "Module 4: Let's See & Chat"
         contents:
-          - text: "L14-20: Coming Soon"
+          - text: "L15: Convolutional Neural Networks"
+            href: lectures/15-cnn.qmd
+          - text: "L16-20: Coming Soon"
             href: "#"
       
       - section: "Module 5: Let's Act"

@@ -34,4 +34,4 @@ By the end of this lecture, you will be able to:
 
 ---
 
-**Previous**: [← Lecture 12: PCA and Dimensionality Reduction](12-pca.qmd) | **Next**: [Coming Soon →](#)
+**Previous**: [← Lecture 12: PCA and Dimensionality Reduction](12-pca.qmd) | **Next**: [Lecture 14: Understanding Transformers →](14-transformers.qmd)

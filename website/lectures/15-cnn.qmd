@@ -1,0 +1,42 @@
+---
+title: "Lecture 15: Convolutional Neural Networks - Learning to See"
+subtitle: "From edge detection to hierarchical feature learning in computer vision"
+---
+
+## Overview
+
+In 2012, AlexNet achieved a breakthrough 15.3% error rate on ImageNet, fundamentally changing computer vision. This lecture explores why CNNs work so well for visual tasks through hands-on experimentation. The core insight: instead of learning separate parameters for every pixel location, CNNs learn small patterns that slide across the image through weight sharing, reducing parameters from millions to thousands while encoding translation invariance. You'll implement convolution from scratch, compare MLP vs CNN robustness on MNIST, visualize hierarchical features in ResNet50, and use saliency maps to understand what CNNs actually "see."
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+
+- Understand why spatial structure matters in vision and how CNNs exploit it
+- Learn how convolution operations extract local features through weight sharing
+- Master the mathematics behind convolution and its relationship to cross-correlation
+- Understand how CNNs build hierarchical representations from edges to objects
+- Learn the role of pooling in creating translation invariance and dimension reduction
+- Implement convolution from scratch to understand the operation deeply
+- Visualize learned features at different network depths
+- Apply transfer learning to solve custom image classification tasks
+- Diagnose what CNNs actually "see" using activation and gradient visualization
+- Compare translation robustness between fully connected networks and CNNs
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[CNN Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2015%20CNN/15-CNN.ipynb)**
+:::
+
+## Resources
+
+- **Papers**: 
+  - "ImageNet Classification with Deep Convolutional Neural Networks" (Krizhevsky et al., 2012) - AlexNet
+  - "Deep Residual Learning for Image Recognition" (He et al., 2015) - ResNet
+  - "Visualizing and Understanding Convolutional Networks" (Zeiler & Fergus, 2013)
+  - "Deep Inside Convolutional Networks: Visualising Image Classification Models" (Simonyan et al., 2013) - Saliency maps
+  
+---
+
+**Previous**: [← Lecture 14: Understanding Transformers](14-transformers.qmd) | **Next**: [Lecture 16: Coming Soon →](#)
