@@ -1,0 +1,41 @@
+---
+title: "Lecture 16: Recurrent Neural Networks and Language Models"
+subtitle: "From vanishing gradients to selective state spaces: the evolution of sequence modeling"
+---
+
+## Overview
+
+Sequential data is everywhere: time series, text, audio, video. This lecture explores how neural networks process sequences of arbitrary length while maintaining memory of past inputs. We start with vanilla RNNs and discover their fundamental limitation—the vanishing gradient problem. Then we see how LSTMs solve this through gating mechanisms, making them highly effective for time series and moderate-length sequences. Finally, we examine why LSTMs struggle with modern language modeling tasks and explore how newer architectures like Mamba bring back recursion with linear complexity. Through hands-on experiments with Sequential MNIST and architecture comparisons, the lecture reveals when to use each approach based on computational trade-offs.
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+
+- Implement vanilla RNN and LSTM architectures and understand their core computational mechanisms
+- Diagnose the vanishing gradient problem in RNNs through visualization and empirical analysis
+- Explain LSTM's gating mechanisms (forget, input, output gates) and how they enable long-term memory
+- Train and compare RNN vs LSTM on Sequential MNIST to observe performance differences with sequence length
+- Analyze computational bottlenecks in Transformers (quadratic attention) vs recursive models (linear complexity)
+- Select appropriate architectures for different tasks based on sequence length, memory constraints, and computational requirements
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[RNN & Language Models Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2016%20RNN%20and%20Recurrent%20Language%20Models/16_RNN.ipynb)**
+:::
+
+## Resources
+
+- **Classic Blog Posts**:
+  - [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Christopher Olah - The definitive visual guide to LSTMs
+  - [A Visual Guide to Mamba and State Space Models](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mamba-and-state) - Modern recursive architectures explained
+
+- **Foundational Papers**:
+  - "Long Short-Term Memory" (Hochreiter & Schmidhuber, 1997) - The original LSTM paper
+  - "Attention Is All You Need" (Vaswani et al., 2017) - The Transformer architecture
+  - "Mamba: Linear-Time Sequence Modeling with Selective State Spaces" (Gu & Dao, 2023) - Modern efficient recursion
+
+---
+
+**Previous**: [← Lecture 15: Convolutional Neural Networks](15-cnn.qmd) | **Next**: [Lecture 17: LLM Agents & Tool Use →](17-llm-agents.qmd)
